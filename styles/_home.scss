@@ -98,7 +98,6 @@
       .center{
         width: 85%;
         height: 100%;
-        background-color: aqua;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -119,14 +118,12 @@
         .actis{
           width: 100%;
           height: 85%;
-          background-color: black;
           margin-top: 2vh;
           display: flex;
           justify-content: space-between;
           .acti{
             width: 32%;
             height: 100%;
-            background-color: aliceblue;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -137,6 +134,17 @@
             }
             .petititre{
               margin-top: 3vh;
+            }
+            .para{
+              margin-top: 5vh;
+              text-align: center;
+            }
+            button{
+              margin-top: 5vh;
+              width: 30%;
+              height: 35px;
+              background-color: $mauve;
+              border: none;
             }
           }
         }
